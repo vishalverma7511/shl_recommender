@@ -11,7 +11,7 @@
 # --- Backend ---
 Flask==2.3.3
 flask-cors==4.0.0
-scikit-learn==1.4.1
+scikit-learn==1.3.2
 sentence-transformers==2.2.2
 numpy==1.26.4
 pandas==2.2.1
