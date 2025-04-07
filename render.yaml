@@ -3,6 +3,6 @@ services:
     name: shl-api
     env: python
     plan: free
-    buildCommand: pip install -r backend/requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: python backend/app.py
-    rootDir: backend
+    rootDir: .
