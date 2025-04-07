@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: shl-api
+    name: shl_recommender
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python backend/app.py
+    startCommand: gunicorn backend.app:app
     rootDir: .
