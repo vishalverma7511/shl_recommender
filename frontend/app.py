@@ -62,7 +62,7 @@ if st.button("Get Recommendations"):
     else:
         try:
             response = requests.post(
-                "https://shl-recommender-xrg0.onrender.com",
+                "https://shl-recommender-sgvl.onrender.com",
                 json={"query": query}
             )
 
