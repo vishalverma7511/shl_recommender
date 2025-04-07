@@ -1,4 +1,4 @@
-'''from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import json
 import numpy as np
@@ -57,8 +57,8 @@ def demo():
 
 if __name__ == "__main__":
     demo()
-'''
 
+'''
 from sklearn.metrics.pairwise import cosine_similarity
 import json
 import numpy as np
@@ -125,3 +125,4 @@ def demo():
 
 if __name__ == "__main__":
     demo()
+'''
