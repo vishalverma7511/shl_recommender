@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from recommender import recommend_assessments 
+from backend.recommender import recommend_assessments 
 import os
 
 app = Flask(__name__)
