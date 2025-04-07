@@ -24,3 +24,7 @@ requests==2.31.0
 # --- Additional (for NLP & embeddings) ---
 torch==2.2.1
 transformers==4.39.3
+
+# --- Deployment ---
+gunicorn==21.2.0
+
