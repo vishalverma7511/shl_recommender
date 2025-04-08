@@ -8,7 +8,7 @@ app = Flask(__name__)
 def home():
     return "🚀 SHL Recommender API is running!"
 
-@app.route("/recommend", methods=["GET"])
+@app.route("/recommend", methods=["POST"])
 def get_recommendations():
     data = request.get_json()
     query = data.get("query")
