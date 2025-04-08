@@ -18,4 +18,4 @@ A smart AI-based system that recommends relevant SHL assessments based on a user
 
 ---
 
-⚠️ Note: This project is hosted on a free-tier Render service. Due to auto-sleep behavior, the backend may take 10–30 seconds to respond initially after a period of inactivity. Once awake, responses will be instant.
+⚠️ Note: This project is hosted on a free-tier Render service. Due to auto-sleep behavior, the backend may take 60–120 seconds to respond initially after a period of inactivity. Once awake, responses will be instant.
