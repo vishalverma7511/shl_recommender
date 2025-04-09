@@ -8,22 +8,6 @@ model = None
 catalog = None
 catalog_embeddings = None
 
-'''def load_resources():
-    global model, catalog, catalog_embeddings
-    if model is None:
-        from sentence_transformers import SentenceTransformer
-        model = SentenceTransformer('all-MiniLM-L6-v2')
-
-    if catalog is None or catalog_embeddings is None:
-        DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "shl_catalog.json")
-        with open(DATA_PATH, "r", encoding="utf-8") as f:
-            catalog_data = json.load(f)
-        catalog_texts = [item["Assessment Name"] for item in catalog_data]
-        catalog_embeds = model.encode(catalog_texts, convert_to_tensor=True)
-
-        catalog = catalog_data
-        catalog_embeddings = catalog_embeds'''
-
 def load_resources():
     global model, catalog, catalog_embeddings
     if model is None:
@@ -45,7 +29,6 @@ def load_resources():
 
         catalog = catalog_data
         catalog_embeddings = catalog_embeds
-
 
 def clean_unicode_symbols(data):
     return data.replace("\u2718", "✘").replace("\u2714", "✓")
